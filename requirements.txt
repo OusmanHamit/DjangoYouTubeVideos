@@ -1,0 +1,9 @@
+asgiref==3.11.1
+django==5.2
+django-cotton==2.7.2
+django-environ==0.13.0
+django-template-partials==25.3
+sqlparse==0.5.5
+djangorestframework
+markdown
+django-filter

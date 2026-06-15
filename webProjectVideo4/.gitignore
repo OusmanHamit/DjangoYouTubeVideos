@@ -12,6 +12,7 @@ node_modules/
 logo.*
 logo.png
 README.pdf
+README_tmp.html
 main.py
 __pycache__/
 *.py[cod]

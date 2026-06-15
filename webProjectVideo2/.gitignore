@@ -1,0 +1,38 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+.mypy_cache
+.history/
+wheels/
+*.egg-info
+node_modules/
+.env.*
+logo.*
+logo.png
+README.pdf
+main.py
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Django
+db.sqlite3
+
+# Static files collected
+staticfiles/
+
+# IDE
+.vscode/
+.idea/
+# OS
+.DS_Store
+Thumbs.db
+# Logs
+*.log

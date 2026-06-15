@@ -1,0 +1,19 @@
+{
+  "name": "webproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind:dev": "tailwindcss -i ./static/src/input.css -o ./static/dist/output.css --watch",
+    "tailwind:build": "tailwindcss -i ./static/src/input.css -o ./static/dist/output.css --minify",
+    "dev":"npm run tailwind:dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.4",
+    "tailwindcss": "^4.2.4"
+  }
+}

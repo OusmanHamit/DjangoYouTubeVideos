@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}mon super titre{% endblock title %}</title>
+    <link rel="stylesheet" href="{% static 'dist/output.css' %}">
+</head>
+<body class="flex flex-col min-h-screen bg-sky-950 text-slate-100">
+    {% block navbar %}{% endblock navbar %}
+    <main id="main-content" class="grow container mx-auto px-4 pt-24 pd-8">
+        {% block content %}{% endblock content %}
+    </main>
+    {% block footer %}{% endblock footer %}
+
+    <script src="{% static 'js/htmx.min.js' %}" defer></script>
+    <script src="{% static 'js/alpine.min.js' %}" defer></script>
+    
+    {% block scripts %}{% endblock scripts %}
+</body>
+
+</html>

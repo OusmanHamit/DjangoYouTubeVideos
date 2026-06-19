@@ -11,6 +11,7 @@ node_modules/
 .env.*
 logo.*
 logo.png
+requirements.txt
 README.pdf
 README_tmp.html
 main.py

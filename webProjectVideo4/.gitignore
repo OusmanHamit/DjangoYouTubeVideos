@@ -13,6 +13,7 @@ logo.*
 logo.png
 README.pdf
 README_tmp.html
+requirements.txt
 main.py
 __pycache__/
 *.py[cod]

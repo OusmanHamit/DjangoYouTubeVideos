@@ -16,7 +16,9 @@
 - **👍 + commentaire pour CHAQUE video**
 - **✅**
 ---
-![alt text](rendu.png)
+![alt text](rendu-1.png) 
+![alt text](update-1.png)
+![alt text](delete-1.png)
 
 - **Video 1 👉 https://youtu.be/B7TN8NM7rvQ**
 - **Video 2 👉 https://youtu.be/Ey-Z7u-5oQQ**

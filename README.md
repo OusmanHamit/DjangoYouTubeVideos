@@ -1,7 +1,5 @@
 
 
----
-
 - **git clone https://github.com/OusmanHamit/DjangoYouTubeVideos.git**
 
 - Se déplacer dans le dossier avec **cd nom_du_projet** que vs voulez

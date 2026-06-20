@@ -1,5 +1,6 @@
 
-Les opérations **CRUD** (**Create**, **Read**, **Update**, **Delete**)
+Les opérations **CRUD** (**Create**, **Read**, **Update**, **Delete**) de A à Z
+
 - **git clone https://github.com/OusmanHamit/DjangoYouTubeVideos.git**
 
 - Se déplacer dans le dossier avec **cd nom_du_projet** que vs voulez

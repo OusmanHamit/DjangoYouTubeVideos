@@ -15,11 +15,9 @@
 - **npm run dev**
 - **👍 + commentaire pour CHAQUE video**
 - **✅**
+
 ---
 
-- **Video 1 👉 https://youtu.be/B7TN8NM7rvQ**
-- **Video 2 👉 https://youtu.be/Ey-Z7u-5oQQ**
-- **Video 3 👉 https://youtu.be/1afKdUg-pNY**
 - **Video 4 👉 https://youtu.be/0uFjLWntLCc**
 
 ---

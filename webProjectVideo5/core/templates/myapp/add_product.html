@@ -1,0 +1,38 @@
+{% extends "layouts/base.html" %}
+{% load static %}
+{% load widget_tweaks %}
+{% block content %} 
+    <div class="container mx-auto px-4 py-8 items-center">
+    <div class="card max-w-4xl mx-auto bg-gray-800 shadow-xl items-center p-6">
+                <h3 class="card-title text-sm p-4 mb-4 italic text-white"> Ajout d'un nouveau produit</h3>
+                <form method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div class="mb-4">
+                        {% render_field form.name placeholder="Nom du produit ?" class="text-white focus:ring-primary-600 focus:border-primary-600 block w-full p-2 dark:bg-gray-700 dark:border-gray-600" %}
+                    </div>
+
+                    <div class="mb-4">
+                        {% render_field form.price placeholder="Le prix ?" class="text-white focus:ring-primary-600 focus:border-primary-600 block w-full p-2 dark:bg-gray-700 dark:border-gray-600" %}
+                    </div>
+
+                    <div class="mb-4">
+                        {% render_field form.stock placeholder="Quantité stock disponible ?" class="text-white focus:ring-primary-600 focus:border-primary-600 block w-full p-2 dark:bg-gray-700 dark:border-gray-600" %}
+                    </div>
+
+                    <div class="mb-6">
+                        {% render_field form.image  class="text-white focus:ring-primary-600 focus:border-primary-600 block w-full p-2 dark:bg-gray-700 dark:border-gray-600" %}   
+                    </div>
+
+                    <div class="flex gap-3">
+                        <button type="submit" class="btn btn-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-database-icon lucide-database"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/>
+                            </svg>
+                            Enregistrer
+                        </button>
+                        <a href="{% url 'list_product' %}" class="btn btn-outline text-white hover:bg-sky-700">Annuler</a>
+                    </div>
+                    <br/>
+                </form>
+        </div>
+</div>
+{% endblock content %}
